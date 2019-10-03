@@ -1,17 +1,10 @@
 package com.section7.recipe.controllers;
 
-import com.section7.recipe.model.Category;
-import com.section7.recipe.model.UnitOfMeasure;
-import com.section7.recipe.repositories.CategoryRepository;
-import com.section7.recipe.repositories.UnitOfMeasureRepository;
 import com.section7.recipe.services.RecipeService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.Optional;
 
 @Slf4j
 @Controller
